@@ -1,0 +1,29 @@
+https://github.com/acdlite/react-fiber-architecture
+
+createRoot creates a Virtual DOM then it matches with the main DOM and his (virtual)DOM (mai fibre)then updates only those jaha changes hue hai
+
+
+BUT OUR BROWSER clears the whole stuf and paints again(as in pura structure tyar hota haii) ==  this is known as reloading
+
+
+# REACT FIBRE- breaking down rendering process into small chunks and updating according to schedule
+
+ITS working behind the virtual dom now
+Goal , key featurs = pause, abort or reuse work , assign priority 
+
+
+# RECONCILIATION 
+
+Reconsider all the changes , diff one tree with another to determine the changes
+it is the algo behind what is popularly understood as Virtual DOM
+
+
+# UPDATE
+
+A change in data used to render a React app. usually the result of 'setState'
+
+
+
+
+What Is FIBRE?
+heart of React Fibres architecture 
