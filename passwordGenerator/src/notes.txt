@@ -1,0 +1,19 @@
+useCallback - a react hook that lets you cache a fx definition btw re-renders..memorise krta haii then reuse krta haii ,optimise krta hai cheezo ko
+
+overflow: hidden
+When you set overflow: hidden on an element, any content that exceeds the element's dimensions (height or width) will be clipped and hidden from view
+what happens to content that overflows the bounds of its container. 
+
+
+
+hook- useEffect - synchronise an effect, kisi fx ke call par , jab bhi dependencies badli tab render hoga, fx call
+useRef- jab bhi kisi ka ref. lena ho
+
+  const copyPasswordToClip = useCallback(()=>{
+    window.navigator.clipboard.writeText(password)
+  },
+[password])
+
+==The input element with type="range" is used to create the slider. The min and max attributes define the range of values the slider can select.
+
+Controlled Component: In React, you often want to control the value of form elements via component state. By setting the value attribute of the input element to a state variable, you make the slider a controlled component. This means that React controls its current value through the state

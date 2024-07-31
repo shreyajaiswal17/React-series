@@ -6,3 +6,5 @@ to implement states == style{{yaha var/css(backgroundColor: var(state))}}
  onclick={()=>}/ onclick={var/fx store wala}/ onclick= fxname('id')  / isko fx chahiye isme if we pass parametrs ..if krne hai toh ===>{setColor("red")}
 
  so we then pass callback onClick= {()=> setColor('red)}
+
+ Flexbox simplifies the process of aligning and distributing space among items in a container, even when their size is unknown or dynamic.
