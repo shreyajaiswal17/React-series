@@ -1,0 +1,8 @@
+to implement states == style{{yaha var/css(backgroundColor: var(state))}}
+
+
+ position: fixed;, it remains in a fixed position even when the page is scrolled
+
+ onclick={()=>}/ onclick={var/fx store wala}/ onclick= fxname('id')  / isko fx chahiye isme if we pass parametrs ..if krne hai toh ===>{setColor("red")}
+
+ so we then pass callback onClick= {()=> setColor('red)}

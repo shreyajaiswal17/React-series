@@ -14,6 +14,12 @@ function App() {
 
   const addValue = ()=>{
     // counter = counter +1;
+    // counter = counter +1;
+    // counter = counter +1;
+    // counter = counter +1;
+    // aise in sab ka ek badge bnn jayeg and har baar just ek value inc hogi
+    // to intentionly do-- SetCounter((prevCounter)=> prevCounter+1)
+     
     if(counter<20){
       SetCounter(counter+1)
     }
