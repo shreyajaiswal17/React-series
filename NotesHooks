@@ -1,2 +1,10 @@
 The useEffect hook in React is a powerful tool that lets you perform side effects in function components.
  <!-- Side effects include things like data fetching, manually changing the DOM, or setting up subscriptions or timers -->
+
+ remember the key in loops(.map in currency)
+
+ ...  useId - generating unique ids that can be passed to accessibility attributes
+
+
+
+
