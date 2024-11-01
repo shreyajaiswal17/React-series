@@ -19,7 +19,7 @@ function MyApp(){
 //         href: 'https://google.com',
 //         target: '_blank'
 //     },
-//     children: 'Click me to visit google'
+//     children: 'Click me to visit google' aise react ke custom nhi hai jo ho jayega yaha iska apna way of accepting parameters hai
 // }
 
 const anotherElement = (
