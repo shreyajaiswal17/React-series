@@ -15,9 +15,9 @@ function App() {
 
   return (
     <>
-/* fragments empty */
+{/*  fragments empty  */}
 
-    <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>HI</h1>
+   <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>HI</h1>
   <Card channel ="code"  someObj={myObj}  btnText = "click me" />
   <Card  username="hitesh"/>
 
