@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Home from './components/Home/Home'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 import './App.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-green-700 p-4'>reactRouter</h1>
+     
     </>
   )
 }
