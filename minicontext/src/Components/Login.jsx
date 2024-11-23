@@ -7,7 +7,7 @@ function Login() {
     const [password, setPassword] = useState('')
 
     const {setUser} = useContext(UserContext)
-
+     
     const handleSubmit = (e) =>{
         e.preventDefault()
         setUser({username, password})
@@ -24,6 +24,7 @@ function Login() {
         onChange={(e) => setPassword(e.target.value)}
         placeholder="password"/>
         <button onClick={handleSubmit}>Submit</button>
+        {/* A callback is simply a function that is passed as an argument to be executed later, typically in response to an event.//  when passed to an event handler  */}
     </div>
   )
 }
