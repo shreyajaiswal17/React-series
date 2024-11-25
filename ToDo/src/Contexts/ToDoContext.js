@@ -11,8 +11,8 @@ export const ToDoContext = createContext({
         }
     ],
     addTodo: (todo) => {},
-    updateToDo: (id, todo) => {},
-    deleteToDo: (id) =>{},
+    updateTodo: (id, todo) => {},
+    deleteTodo: (id) =>{},
     toggleComplete: (id) =>{}
 })
 
