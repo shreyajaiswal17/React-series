@@ -18,6 +18,7 @@ export default function ThemeBtn() {
                 type="checkbox"
                 value=""
                 className="sr-only peer"
+                //  to customize the appearance of the checkbox beyond what the browser provides.
                 onChange={onChangeBtn}
                 checked={themeMode == "dark"}
             />

@@ -9,6 +9,8 @@ export const ThemeContext = createContext({
 
 export const ThemeProvider = ThemeContext.Provider
 
+
+// custom hooks -- fx hei
 export default function useTheme (){
     return useContext(ThemeContext)
 }
