@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import { ToDoProvider } from './Contexts/ToDoContext'
+import { ToDoProvider } from './contexts'
+
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -10,6 +10,7 @@ function App() {
   const addTodo =(todo)=> {
     setTodos((prev) => [{id: Date.now(), ...todo}, ...prev])
   }
+  // The ... syntax in JavaScript is called the spread operator, and it is used to spread out the properties of an object (or elements of an array) into another object or array.
   const updateTodo = (id, todo) => {
     setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id? todo : prevTodo)))
   }
@@ -19,6 +20,7 @@ function App() {
   const toggleComplete = (id) => {
     setTodos((prev) => prev.map((prevTodo)=> prevTodo === id? { ...prevTodo, completed: !prevTodo.completed} : prevTodo))
   }
+
 
   return (
     <ToDoProvider value={{todos, addTodo,updateTodo,deleteTodo,toggleComplete}}>
