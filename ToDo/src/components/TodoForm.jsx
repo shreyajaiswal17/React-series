@@ -12,7 +12,9 @@ export default function TodoForm() {
         if(!todo) return 
 
         addTodo({todo: todo, completed:false})
+        
         setTodos("")
+        // for no todo input field ko gayab krne ke liey
     }
    
   return (
