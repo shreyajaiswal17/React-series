@@ -15,7 +15,7 @@ export const todoSlice = createSlice({
             const todo={
                 id:nanoid(), 
                 // payload is an obj isme id jaa skta text jaa sakta hai anything
-                text: action.payload.text
+                text: action.payload
             }
             state.todos.push(todo)
         },

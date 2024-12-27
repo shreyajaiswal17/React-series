@@ -6,7 +6,7 @@ function AddTodo() {
 
     const [input, setInput] = useState('')
     const dispatch = useDispatch()
-// dispatch reducers ko use krte hue store mai values add krta haii
+
     const addTodoHandler = (e) => {
         e.preventDefault()
         dispatch(addTodo(input))
