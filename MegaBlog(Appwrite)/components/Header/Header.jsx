@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom'
 function Header() {
   const authStatus = useSelector((state) => state.auth.status)
   // state sei kuch check krna ho toh
+  // lets your functional components read data from the Redux store
 
   const navigate = useNavigate()
 //  isse ek array pas hota haii iff yeh nhi hota toh har ek ka btn aata then uss btn ko alag sei handle krna padta haii
